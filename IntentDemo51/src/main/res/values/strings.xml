@@ -1,0 +1,7 @@
+<resources>
+    <!--        实验5.1-->
+    <string name="hello">Hello World, IntentDemo!物联网185818张伊阳</string>
+    <string name="app_name">IntentDemo物联网185818张伊阳</string>
+    <string name="open">启动Activity</string>
+    <string name="start">ActivityToStart物联网185818张伊阳</string>
+</resources>

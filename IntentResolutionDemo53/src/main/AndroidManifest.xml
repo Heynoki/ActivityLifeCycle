@@ -1,0 +1,31 @@
+<!--实验53-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.scse.IntentResolutionDemo53"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name">
+        <activity
+            android:name=".IntentResolutionDemo"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityToStart"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="edu.scse"
+                    android:scheme="schemodemo" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+</manifest>

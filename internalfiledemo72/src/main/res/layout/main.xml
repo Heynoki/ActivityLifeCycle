@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="输入文件内容" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="写入文件" />
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="读取文件" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/append"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="追加模式" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:text="文件内容显示区域"
+        android:textColor="#000000" />
+</LinearLayout>

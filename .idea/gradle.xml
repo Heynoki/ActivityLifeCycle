@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActivityCommunication52" />
+            <option value="$PROJECT_DIR$/ActivityLifeCycle" />
+            <option value="$PROJECT_DIR$/BroadcastReceiverDemo54" />
+            <option value="$PROJECT_DIR$/ButtonDemo41" />
+            <option value="$PROJECT_DIR$/CheckboxRadiobuttonDemo" />
+            <option value="$PROJECT_DIR$/ContentProviderDemo" />
+            <option value="$PROJECT_DIR$/IntentDemo51" />
+            <option value="$PROJECT_DIR$/IntentResolutionDemo53" />
+            <option value="$PROJECT_DIR$/ListViewDemo" />
+            <option value="$PROJECT_DIR$/ListViewDemo2" />
+            <option value="$PROJECT_DIR$/MyContextMenu44" />
+            <option value="$PROJECT_DIR$/ParcelMathServiceDemo" />
+            <option value="$PROJECT_DIR$/SimpleRandomServiceDemo61" />
+            <option value="$PROJECT_DIR$/SpinnerDemo" />
+            <option value="$PROJECT_DIR$/SqliteDemo74" />
+            <option value="$PROJECT_DIR$/TabDemo43" />
+            <option value="$PROJECT_DIR$/ThreadRandomServiceDemo62" />
+            <option value="$PROJECT_DIR$/WebViewIntentDemo" />
+            <option value="$PROJECT_DIR$/internalfiledemo72" />
+            <option value="$PROJECT_DIR$/remotemathservicedemo64" />
+            <option value="$PROJECT_DIR$/resourcefiledemo73" />
+            <option value="$PROJECT_DIR$/simplemathservicedemo63" />
+            <option value="$PROJECT_DIR$/simplepreferencedemo71" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

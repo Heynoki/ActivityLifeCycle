@@ -1,0 +1,5 @@
+<resources>
+    <!--        实验4.2-->
+    <string name="hello">Hello World, CheckboxRadiobuttonDemo!</string>
+    <string name="app_name">CheckboxRadiobuttonDemo张伊阳185818</string>
+</resources>
